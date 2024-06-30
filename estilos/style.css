@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Mobile First */
+/* Mobile First  - telefones pequenos*/
 
 /* Extra small devices (telefones pequenos): Até 576px de largura.
 
@@ -26,7 +26,7 @@ Extra large devices (telas grandes e monitores): Acima de 1200px de largura. */
 }
 
 body, html {
-    /* width: 100vw; */
+    width: 100vw;
     height: 100vh;
     background-color: white;
 }
@@ -105,9 +105,22 @@ section.terceira-parte {
     width: 576px;
 }
 
-section.terceira-parte > div {
+section.terceira-parte > div.comImagem01 {
     background: var(--cinzaEscuro) url('../imagens/web-developer.jpg') no-repeat;
     background-size: cover;
     height: 316px;
-    
+}
+
+div.tituloEtxt {
+    background-color: white;
+    text-align: center;
+}
+
+div.tituloEtxt > h2 {
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+div.tituloEtxt > p {
+    padding-bottom: 46px;
 }

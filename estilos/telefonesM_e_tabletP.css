@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    /* Small devices (telefones maiores e tablets pequenos): De 576px até 768px de largura.*/
+
+:root {
+    --cinzaClaro: #EAEAEA;
+    --cinzaEscuro: #333333;
+    --azulClaro: #2690D4;
+}  
+
+div.imagem {
+    height: 445px;
+    width: 768px;
+}
+}
+ 
+
