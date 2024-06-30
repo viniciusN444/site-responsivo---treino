@@ -184,3 +184,22 @@ div.comImagem02{
     text-align: center;
     line-height: 1.5em;
 }
+
+section.quarta-parte > div.digital {
+    background-color: white;
+    width: 576px;
+    height: 325px;
+    padding: 30px;    
+    text-align: center;
+}
+
+.digital h3 {
+    padding-top: 46px;
+    padding-bottom: 46px;    
+}
+
+.digital p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5em;    
+}
