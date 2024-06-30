@@ -9,9 +9,13 @@
     --azulClaro: #2690D4;
 }  
 
+body {
+    background-color: blue;
+}
+
 div.imagem {
     height: 445px;
-    width: 585px;
+    width: 590px;
 }
 }
  
