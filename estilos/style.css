@@ -101,26 +101,86 @@ div.imagem > a:hover {
 
 section.terceira-parte {
     background-color: var(--cinzaEscuro);
-    height: 625px;
+    height: 1958px;
     width: 576px;
+    padding: 35px 18px;
 }
 
 section.terceira-parte > div.comImagem01 {
     background: var(--cinzaEscuro) url('../imagens/web-developer.jpg') no-repeat;
     background-size: cover;
     height: 316px;
+    
 }
 
 div.tituloEtxt {
     background-color: white;
     text-align: center;
+    height: 302px;
+    line-height: 1.5em;
 }
 
-div.tituloEtxt > h2 {
+div.tituloEtxt > h3 {
     padding-top: 46px;
     padding-bottom: 46px;
+    font-size: 20px;
 }
 
 div.tituloEtxt > p {
     padding-bottom: 46px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+div.comImagem02{
+    background: var(--cinzaEscuro) url('../imagens/mobile-aplication.jpg') no-repeat center center;
+    background-size: cover;
+    height: 316px;
+    width: 541px;
+    margin-top: 20px;
+}
+
+.mobile {
+    background-color: white;
+    text-align: center;
+    height: 302px;
+    line-height: 1.5em;
+}
+
+.mobile > h3 {
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+.mobile  p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.comImagem03 {
+    background: var(--cinzaEscuro) url('../imagens/markting.jpg') no-repeat center center;
+    background-size: cover;
+    height: 316px;
+    width: 541px;
+    margin-top: 20px;        
+}
+
+.tech {
+    background-color: white;
+    text-align: center;
+    height: 302px;
+    line-height: 1.5em;    
+}
+
+.tech > h3 {
+    padding-top: 46px;
+    padding-bottom: 46px;    
+}
+
+.tech p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5em;
 }
