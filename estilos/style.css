@@ -175,6 +175,7 @@ div.comImagem02{
 }
 
 .tech > h3 {
+    font-size: 1.5em;
     padding-top: 46px;
     padding-bottom: 46px;    
 }
@@ -193,7 +194,7 @@ section.quarta-parte > div.digital {
     text-align: center;
 }
 
-.digital h3 {
+.digital h2 {
     padding-top: 46px;
     padding-bottom: 46px;    
 }
@@ -203,3 +204,74 @@ section.quarta-parte > div.digital {
     text-align: center;
     line-height: 1.5em;    
 }
+
+.quinta-parte {
+    background-color: var(--azulClaro);
+    width: 576px;
+    height: 325px;
+    padding: 30px;    
+    text-align: center;
+}
+
+.quinta-parte > h2 {
+    padding-top: 46px;
+    padding-bottom: 46px;
+    color: white;
+}
+
+.quinta-parte p {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: white;
+}
+
+.quinta-parte p.email {
+    padding-top: 30px;
+}
+
+.sexta-parte {
+    background-color: var(--cinzaEscuro);
+    color: white;
+    height: 316px;
+    width: 576px;    
+    text-align: center;
+}
+
+.sexta-parte h2 {
+    padding-top: 46px;
+    padding-bottom: 46px;
+    font-weight: bold;
+}
+
+.sexta-parte p {
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 576px;
+    text-align: center;
+}
+
+footer p.titulo {
+    padding-top: 46px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+footer p.linkP {
+    font-size: 18px;
+}
+
+footer p > a {
+    text-decoration: none;
+    color: var(--azulClaro);
+}
+
+
+
+
+

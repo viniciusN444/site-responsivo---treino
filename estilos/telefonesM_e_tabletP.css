@@ -29,6 +29,23 @@ div.comImagem02 {
 div.comImagem03 {
     width: 570px;
 }
+
+section.quarta-parte > div.digital {
+    width: 604px;
+}
+
+.quinta-parte {
+    width: 604px;
+}
+
+.sexta-parte {
+    width: 604px;
+}
+
+footer {
+    width: 604px;
+}
+
 }
  
 
