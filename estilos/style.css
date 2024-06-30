@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+:root {
+    --cinzaClaro: #EAEAEA;
+    --cinzaEscuro: #333333;
+    --azulClaro: #2690D4;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+
+div.imagem {
+    background: url('../imagens/fundo-css.jpg') no-repeat right center;
+    background-size: cover;
+    color: white;
+    height: 445px;
+    width: 500px;
+    padding: 10px;
+}
+
+div.imagem > h1 {
+    text-align: center;
+    padding-top: 118px;
+    font-size: 2em;
+}
+
+div.imagem > h1:hover {
+    text-decoration: underline;
+}
+
+div.imagem > p {
+    font-size: 18px;
+    line-height: 1.5em;
+    max-width: 100%;
+    margin: 10px;
+    margin-top: 3px;
+    padding: 20px;
+    text-align: center;
+}
+
+div.imagem > a {
+    background-color: var(--cinzaEscuro);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 1px solid var(--cinzaClaro);
+    padding: 20px;
+    width: 158px;
+    height: 61px;
+}
+
+div.imagem > a:hover {
+    background-color: var(--cinzaClaro);
+    color: var(--cinzaEscuro);
+}
+
+.segunda-parte > div {
+    background-color: var(--cinzaClaro);
+    width: 500px;
+    height: 325px;
+    padding: 30px;
+}
+
+.segunda-parte h2 {
+    color: var(--cinzaEscuro);
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 53px;
+}
+
+.segunda-parte p {
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: center;
+}
