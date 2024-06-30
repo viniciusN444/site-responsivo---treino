@@ -2,6 +2,16 @@
 
 /* Mobile First */
 
+/* Extra small devices (telefones pequenos): Até 576px de largura.
+
+Small devices (telefones maiores e tablets pequenos): De 576px até 768px de largura.
+
+Medium devices (tablets e desktops pequenos): De 768px até 992px de largura.
+
+Large devices (desktops maiores): De 992px até 1200px de largura.
+
+Extra large devices (telas grandes e monitores): Acima de 1200px de largura. */
+
 :root {
     --cinzaClaro: #EAEAEA;
     --cinzaEscuro: #333333;
@@ -16,7 +26,7 @@
 }
 
 body, html {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     background-color: white;
 }
@@ -27,7 +37,7 @@ div.imagem {
     background-size: cover;
     color: white;
     height: 445px;
-    width: 500px;
+    width: 576px;
     padding: 10px;
 }
 
@@ -71,7 +81,7 @@ div.imagem > a:hover {
 
 .segunda-parte > div {
     background-color: var(--cinzaClaro);
-    width: 500px;
+    width: 576px;
     height: 325px;
     padding: 30px;
 }
@@ -87,4 +97,17 @@ div.imagem > a:hover {
     font-size: 18px;
     line-height: 1.5em;
     text-align: center;
+}
+
+section.terceira-parte {
+    background-color: var(--cinzaEscuro);
+    height: 625px;
+    width: 576px;
+}
+
+section.terceira-parte > div {
+    background: var(--cinzaEscuro) url('../imagens/web-developer.jpg') no-repeat;
+    background-size: cover;
+    height: 316px;
+    
 }
