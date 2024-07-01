@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* Versão para Tablet e Desktop Pequenos*/
+
+@media screen and (min-width: 605px) and (max-width: 992px) {
+    
+    :root {
+        --cinzaClaro: #EAEAEA;
+        --cinzaEscuro: #333333;
+        --azulClaro: #2690D4;
+    }  
+    
+    div.imagem {
+        height: 445px;
+        width: 975px;
+    }
+    
+    .segunda-parte > div {
+        width: 975px;
+    }
+    
+    section.terceira-parte {
+        width: 975px;
+    }
+    
+    div.comImagem02 {
+        width: 975px;
+    }
+    
+    div.comImagem03 {
+        width: 975px;
+    }
+    
+    section.quarta-parte > div.digital {
+        width: 975px;
+    }
+    
+    .quinta-parte {
+        width: 975px;
+    }
+    
+    .sexta-parte {
+        width: 975px;
+    }
+    
+    footer {
+        width: 975px;
+    }
+}

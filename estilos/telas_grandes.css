@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Telas Grandes */
+
+@media screen and (min-width: 1200px) {
+    :root {
+        --cinzaClaro: #EAEAEA;
+        --cinzaEscuro: #333333;
+        --azulClaro: #2690D4;
+    }  
+    
+    div.imagem {
+        height: 445px;
+        width: 1365px;
+    }
+    
+    .segunda-parte > div {
+        width: 1365px;
+    }
+    
+    section.terceira-parte {
+        width: 1365px;
+    }
+    
+    div.comImagem02 {
+        width: 1365px;
+    }
+    
+    div.comImagem03 {
+        width: 1365px;
+    }
+    
+    section.quarta-parte > div.digital {
+        width: 1365px;
+    }
+    
+    .quinta-parte {
+        width: 1365px;
+    }
+    
+    .sexta-parte {
+        width: 1365px;
+    }
+    
+    footer {
+        width: 1365px;
+    }    
+}
